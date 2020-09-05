@@ -31,7 +31,7 @@ public class ExampleInstrumentedTest {
 
         Intent i = HomePage.getIntent(appContext, "Salem");
 
-        assertEquals("com.example.android_login_and_landing_page.HomePage", i.resolveActivity(appContext.getPackageManager()).getClassName());
+        assertEquals("com.example.android_login.HomePage", i.resolveActivity(appContext.getPackageManager()).getClassName());
 
 //        assertEquals("Salem", i.getStringExtra("username"));
     }
