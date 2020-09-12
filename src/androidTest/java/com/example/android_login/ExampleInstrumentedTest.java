@@ -22,7 +22,7 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.android_login_and_landing_page", appContext.getPackageName());
+        assertEquals("com.example.android_login", appContext.getPackageName());
     }
 
     @Test

@@ -12,15 +12,6 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
 
-    public MainActivity mainActivity;
-    public HomePage homePage;
-
-    @Before
-    public void setup() {
-        mainActivity = new MainActivity();
-        homePage = new HomePage();
-    }
-
     @Test
     public void usernameVerificationTest() {
         MainActivity.createUsers();
